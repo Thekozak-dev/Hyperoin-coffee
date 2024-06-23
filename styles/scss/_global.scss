@@ -1,0 +1,9 @@
+body {
+    width: calc(100% - 60px - 60px);
+    margin: 0 auto;
+}
+
+body > * {
+    margin: 0;
+    padding: 0;
+}

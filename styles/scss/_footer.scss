@@ -1,0 +1,44 @@
+.footer {
+    margin-top: 45px;
+
+    &__title-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    &__wrapper-menu {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 78px;
+    }
+
+    &__menu-link {
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        color: black;
+    }
+
+    &__container-logo {
+        width: calc(100% - 175px - 175px);
+        margin: 65px  auto 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-mastercard {
+        display: flex;
+        align-items: center;
+    }
+}
